@@ -18,11 +18,12 @@ nav:
       - 'Interactive' : 'gameplay-ingredients/interactive.md'
       - 'Timers' : 'gameplay-ingredients/timers.md'
     - 'Editor Tools' : 
+      - 'Welcome Screen' : 'gameplay-ingredients/welcome-screen.md'
       - 'Play From Here' : 'gameplay-ingredients/play-from-here.md'
       - 'Scene POV' : 'gameplay-ingredients/scene-pov.md'
       - 'Link Game View' : 'gameplay-ingredients/link-game-view.md'
       - 'Callable Trre Explorer' : 'gameplay-ingredients/callable-tree-explorer.md'
-      - 'Hierarchy Hints' : 'gameplay-ingredients/hierarch-yhints.md'
+      - 'Hierarchy Hints' : 'gameplay-ingredients/hierarchy-hints.md'
       - 'Find and Replace' : 'gameplay-ingredients/find-and-replace.md'
       - 'New Scene from Template' : 'gameplay-ingredients/new-scene-from-template.md'
       - 'Scene Setups' : 'gameplay-ingredients/scene-setups.md'
