@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: peeweek GitHub Documentation
+site_description : Documentation of GitHub projects
+site_author : Thomas ICHÉ
+repo_url: https://github.com/peeweek
+theme: mkdocs
+extra_css:
+    - css/extra.css
+nav:
+  - 'Home' : 'index.md'
+  - 'Gameplay Ingredients' :
+    - 'Home' : 'gameplay-ingredients/index.md'
+    - 'Runtime Tools' : 
+      - 'Home' : 'gameplay-ingredients/runtime.md'
+      - 'Events, Logic and Actions' : 'gameplay-ingredients/runtime/events-logic-actions.md'
