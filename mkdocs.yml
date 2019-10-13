@@ -10,5 +10,21 @@ nav:
   - 'Gameplay Ingredients' :
     - 'Home' : 'gameplay-ingredients/index.md'
     - 'Runtime Tools' : 
-      - 'Home' : 'gameplay-ingredients/runtime.md'
       - 'Events, Logic and Actions' : 'gameplay-ingredients/runtime/events-logic-actions.md'
+      - 'Rigs' : 'gameplay-ingredients/rigs.md'
+      - 'Managers' : 'gameplay-ingredients/managers.md'
+      - 'Factories' : 'gameplay-ingredients/factories.md'
+      - 'Global Variables' : 'gameplay-ingredients/globals.md'
+      - 'Interactive' : 'gameplay-ingredients/interactive.md'
+      - 'Timers' : 'gameplay-ingredients/timers.md'
+    - 'Editor Tools' : 
+      - 'Play From Here' : 'gameplay-ingredients/play-from-here.md'
+      - 'Scene POV' : 'gameplay-ingredients/scene-pov.md'
+      - 'Link Game View' : 'gameplay-ingredients/link-game-view.md'
+      - 'Callable Trre Explorer' : 'gameplay-ingredients/callable-tree-explorer.md'
+      - 'Hierarchy Hints' : 'gameplay-ingredients/hierarch-yhints.md'
+      - 'Find and Replace' : 'gameplay-ingredients/find-and-replace.md'
+      - 'New Scene from Template' : 'gameplay-ingredients/new-scene-from-template.md'
+      - 'Scene Setups' : 'gameplay-ingredients/scene-setups.md'
+      - 'Discover' : 'gameplay-ingredients/discover.md'
+      - 'Other' : 'gameplay-ingredients/editor-other.md'
