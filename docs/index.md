@@ -6,5 +6,5 @@ you will find my repositories at this address : [https://github.com/peeweek/](ht
 
 **Documented Repositories:**
 
-*  [Gameplay Ingredients](gameplay-ingredients\index.md) 
+*  [Gameplay Ingredients](gameplay-ingredients/index.md) 
 

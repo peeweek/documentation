@@ -10,7 +10,7 @@ nav:
   - 'Gameplay Ingredients' :
     - 'Home' : 'gameplay-ingredients/index.md'
     - 'Runtime Tools' : 
-      - 'Events, Logic and Actions' : 'gameplay-ingredients/runtime/events-logic-actions.md'
+      - 'Events, Logic and Actions' : 'gameplay-ingredients/events-logic-actions.md'
       - 'Rigs' : 'gameplay-ingredients/rigs.md'
       - 'Managers' : 'gameplay-ingredients/managers.md'
       - 'Factories' : 'gameplay-ingredients/factories.md'
