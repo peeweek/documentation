@@ -1,7 +1,6 @@
-site_name: peeweek GitHub Documentation
+site_name: github.com/peeweek
 site_description : Documentation of GitHub projects
 site_author : Thomas ICHÉ
-repo_url: https://github.com/peeweek
 theme: mkdocs
 extra_css:
     - css/extra.css
@@ -9,25 +8,26 @@ nav:
   - 'Home' : 'index.md'
   - 'Gameplay Ingredients' :
     - 'Home' : 'gameplay-ingredients/index.md'
-    - 'Runtime Tools' : 
-      - 'Events, Logic and Actions' : 'gameplay-ingredients/events-logic-actions.md'
-      - 'Managers' : 'gameplay-ingredients/managers.md'
-      - 'Rigs' : 'gameplay-ingredients/rigs.md'
-      - 'State Machines' : 'gameplay-ingredients/state-machines.md'
-      - 'Factories' : 'gameplay-ingredients/factories.md'
-      - 'Timers' : 'gameplay-ingredients/timers.md'
-      - 'Global Variables' : 'gameplay-ingredients/globals.md'
-      - 'Interactive' : 'gameplay-ingredients/interactive.md'
-      - 'Gameplay Ingredients Settings' : 'gameplay-ingredients/settings.md'
-    - 'Editor Tools' : 
-      - 'Welcome Screen' : 'gameplay-ingredients/welcome-screen.md'
-      - 'Play From Here' : 'gameplay-ingredients/play-from-here.md'
-      - 'Hierarchy Hints' : 'gameplay-ingredients/hierarchy-hints.md'
-      - 'Link Game View' : 'gameplay-ingredients/link-game-view.md'
-      - 'Scene Point of Views' : 'gameplay-ingredients/scene-pov.md'
-      - 'Scene Setups' : 'gameplay-ingredients/scene-setups.md'
-      - 'New Scene from Template' : 'gameplay-ingredients/new-scene-from-template.md'
-      - 'Find and Replace' : 'gameplay-ingredients/find-and-replace.md'
-      - 'Callable Tree Explorer' : 'gameplay-ingredients/callable-tree-explorer.md'
-      - 'Discover' : 'gameplay-ingredients/discover.md'
-      - 'Other' : 'gameplay-ingredients/editor-other.md'
+    - 'Events, Logic and Actions' : 'gameplay-ingredients/events-logic-actions.md'
+    - 'Callables' : 'gameplay-ingredients/callable.md'
+    - 'Managers' : 'gameplay-ingredients/managers.md'
+    - 'Messager' : 'gameplay-ingredients/messager.md'
+    - 'Rigs' : 'gameplay-ingredients/rigs.md'
+    - 'State Machines' : 'gameplay-ingredients/state-machines.md'
+    - 'Factories' : 'gameplay-ingredients/factories.md'
+    - 'Timers' : 'gameplay-ingredients/timers.md'
+    - 'Global Variables' : 'gameplay-ingredients/globals.md'
+    - 'Interactive' : 'gameplay-ingredients/interactive.md'
+    - 'Gameplay Ingredients Settings' : 'gameplay-ingredients/settings.md'
+    - 'Welcome Screen' : 'gameplay-ingredients/welcome-screen.md'
+    - 'Play From Here' : 'gameplay-ingredients/play-from-here.md'
+    - 'Advanced Hierarchy View' : 'gameplay-ingredients/hierarchy-hints.md'
+    - 'Link Game View' : 'gameplay-ingredients/link-game-view.md'
+    - 'Scene Point of Views' : 'gameplay-ingredients/scene-pov.md'
+    - 'Scene Setups' : 'gameplay-ingredients/scene-setups.md'
+    - 'New Scene from Template' : 'gameplay-ingredients/new-scene-from-template.md'
+    - 'Find and Replace' : 'gameplay-ingredients/find-and-replace.md'
+    - 'Callable Tree Explorer' : 'gameplay-ingredients/callable-tree-explorer.md'
+    - 'Folders' : 'gameplay-ingredients/folders.md'
+    - 'Discover' : 'gameplay-ingredients/discover.md'
+    - 'Other Editor Tools' : 'gameplay-ingredients/editor-other.md'
