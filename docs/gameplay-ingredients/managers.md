@@ -4,6 +4,18 @@ Managers are Game-Wide utility Scripts that are meant to exist only once, such a
 
 Many components of Gameplay Ingredients rely on these managers to perform general game tasks, such as loading levels, fading to black, accessing game saves,....
 
+## Built-in Managers
+
+Gameplay Ingredients come with the following built-in managers:
+
+* **FullScreenFadeManager** : Manages Fading screen From/To Black
+* **GameManager** : Manages Loading Game Levels, Main Menu, and Game Progression
+* **[GameSaveManager](game-save-manager.md)** : Manages storing save data to disk
+* **LevelStreamingManager**: Manages loading scenes and display Loading UI
+* **ScreenshotManager**: Manages taking screenshots
+* **UIEventManager**: Manages Focusing on UI
+* **VirtualCameraManager** : Manages a single camera for your game.
+
 ## Manager Creation Logic
 
 Whenever the game starts, the runtime code will try to load all managers (except those defined in the Excluded manager list of the [Gameplay Ingredients Settings Asset](settings.md)). In order to spawn an instance, the runtime will try to load a prefab in the **Resources** folder with the following priority (first found).
