@@ -4,3 +4,4 @@
 
 Find And Replace is a Window that enables searching, refining and/or append to search result list based on various criteria.
 
+![Find and Replace](images/find-and-replace.png)
