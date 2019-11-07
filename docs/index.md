@@ -7,4 +7,6 @@ you will find my repositories at this address : [https://github.com/peeweek/](ht
 **Documented Repositories:**
 
 *  [Gameplay Ingredients](gameplay-ingredients/index.md)
+*  [Console](console/index.md)
+*  [Build Frontend](build-frontend/index.md)
 

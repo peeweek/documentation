@@ -1,9 +1,7 @@
 site_name: github.com/peeweek
 site_description : Documentation of GitHub projects
 site_author : Thomas ICHÉ
-theme: mkdocs
-extra_css:
-    - css/extra.css
+theme: readthedocs
 nav:
   - 'Home' : 'index.md'
   - 'Gameplay Ingredients' :
@@ -31,3 +29,7 @@ nav:
     - 'Folders' : 'gameplay-ingredients/folders.md'
     - 'Discover' : 'gameplay-ingredients/discover.md'
     - 'Other Editor Tools' : 'gameplay-ingredients/editor-other.md'
+  - 'Console' :
+    - 'Home' : 'console/index.md'
+  - 'Build Frontend' :
+    - 'Home' : 'build-frontend/index.md' 
