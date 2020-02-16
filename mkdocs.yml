@@ -15,6 +15,7 @@ nav:
     - 'Factories' : 'gameplay-ingredients/factories.md'
     - 'Timers' : 'gameplay-ingredients/timers.md'
     - 'Global Variables' : 'gameplay-ingredients/globals.md'
+    - 'Counters' : 'gameplay-ingredients/counters.md'
     - 'Interactive' : 'gameplay-ingredients/interactive.md'
     - 'Gameplay Ingredients Settings' : 'gameplay-ingredients/settings.md'
     - 'Welcome Screen' : 'gameplay-ingredients/welcome-screen.md'

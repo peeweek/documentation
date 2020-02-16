@@ -35,7 +35,7 @@ GItHub repository is here : [https://github.com/peeweek/net.peeweek.gameplay-ing
 
 ## Requirements
 
-* Unity 2018.3 / 2019.1 / 2019.2
+* Unity **2019.3** / 2019.2 / 2019.1 / 2018.3
 * Package Manager UI
 
 ## How to install
@@ -48,6 +48,13 @@ You can use a manual, local package installation if you need to alter the code l
 - In your project, open the `Window/Package Manager` window and use the + button to select the `Add Package from Disk...` option.
 - Navigate to your repository folder and select the `package.json` file
 - The repository shall be added
+### OpenUPM
+
+The package is available on the [openupm registry](https://openupm.com). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+
+```
+openupm add net.peeweek.gameplay-ingredients
+```
 
 ### Git reference version
 
@@ -60,7 +67,6 @@ You can check that the package was imported by looking at the project window, un
 
 Gameplay Ingredients comes with the following compatibility:
 
-* **Unity 2018.3 / 2018.4 :** choose the tag `2018.3.0`
+* **Unity 2019.3** : choose the tag `2019.3.3` 
 * **Unity 2019.1 / 2019.2 :** choose the tag `2019.1.2` 
-
-* **Unity 2019.3** : Not officially supported ATM
+* **Unity 2018.3 / 2018.4 :** choose the tag `2018.3.0`

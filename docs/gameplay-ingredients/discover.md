@@ -11,3 +11,14 @@ Discover is an Editor Window that displays user-created content in order to disc
 * In the Scenes use the `Create/Gameplay Ingredients/Discover` menu item to create Discover Game Objects and add content to browse.
 
 Double Click a Discover Asset to display its window. 
+
+## Adding Discover Components in scene.
+
+Using the Create Game Object Menu, select Gameplay Ingredients > Discover to create a new Discover Game Object. This game object holds a component to write a discover section into your Discover Window.
+
+Discover Sections are populated one for each Discover Game Object.
+
+#### Main Section
+
+#### Sub Sections
+

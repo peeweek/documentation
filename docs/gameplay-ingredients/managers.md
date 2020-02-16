@@ -18,12 +18,14 @@ Gameplay Ingredients come with the following built-in managers:
 
 ## Manager Creation Logic
 
-Whenever the game starts, the runtime code will try to load all managers (except those defined in the Excluded manager list of the [Gameplay Ingredients Settings Asset](settings.md)). In order to spawn an instance, the runtime will try to load a prefab in the **Resources** folder with the following priority (first found).
+Whenever the game performs it `[RuntimeInitializeOnLoad]` (after the first frame's `OnEnable()` and before the first frame's `Start()`, the runtime code will try to load all managers (except those defined in the Excluded manager list of the [Gameplay Ingredients Settings Asset](settings.md)). In order to spawn an instance, the runtime will try to load a prefab in the **Resources** folder with the following priority (first found).
 
 * Prefab that matches the name defined in the `[ManagerDefaultPrefab]` Attribute of the Manager C# Class.
 * Prefab that matches the name defined in the `[ManagerDefaultPrefab]` Attribute of the Manager C# Class, prefixed by `Default_`.
   * If no prefab is found while the `[ManagerDefaultPrefab]` is defined, the creation will fail.
 * If no `[ManagerDefaultPrefab]` is set : the system will create one game object with a default instance of the Manager Script.
+
+> Managers should not reference each other during their `OnEnable()` methods, as the code that loads them is performed during the `[RuntimeInitializeOnLoad]`, it is advised to reference them during the `Start()` method instead.
 
 ## Exclude Managers
 
