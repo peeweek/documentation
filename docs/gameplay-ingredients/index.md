@@ -35,8 +35,18 @@ GItHub repository is here : [https://github.com/peeweek/net.peeweek.gameplay-ing
 
 ## Requirements
 
-* Unity **2019.3** / 2019.2 / 2019.1 / 2018.3
+* Unity **2019.4** / 2019.3 / 2019.2 / 2019.1 / 2018.3
 * Package Manager UI
+
+## Package Dependency History
+
+Depending on the version you use, some package dependencies are mandatory, here's a recap of the dependency changes through versions.
+
+| Gameplay Ingredients Version | Requirements                                                 |
+| ---------------------------- | ------------------------------------------------------------ |
+| 2019.3.5                     | `com.unity.cinemachine` updated to 2.5.0<br />`com.unity.timeline` added as 1.3.0 |
+| 2019.1.1-preview             | `com.unity.cinemachine` updated to 2.3.4                     |
+| 2019.1.0-preview             | `com.unity.cinemachine` updated to 2.2.8                     |
 
 ## How to install
 
@@ -67,6 +77,6 @@ You can check that the package was imported by looking at the project window, un
 
 Gameplay Ingredients comes with the following compatibility:
 
-* **Unity 2019.3** : choose the tag `2019.3.3` 
+* **Unity 2019.3** : choose the tag `2019.3.5` 
 * **Unity 2019.1 / 2019.2 :** choose the tag `2019.1.2` 
 * **Unity 2018.3 / 2018.4 :** choose the tag `2018.3.0`
