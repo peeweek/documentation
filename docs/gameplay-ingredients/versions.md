@@ -40,3 +40,13 @@ In this change, the target scene field was changed for two arrays, one for scene
 ### Removed Counts from OnTriggerEvent (2018.3.0 > 2019.1.0)
 
 In this change, counts were removed from OnTriggerEvent, please use NTimesLogic in order to perform the count check.
+
+# Unity Package Dependency History
+
+Depending on the version you use, some package dependencies are mandatory, here's a recap of the dependency changes through versions.
+
+| Gameplay Ingredients Version | Requirements                                                 |
+| ---------------------------- | ------------------------------------------------------------ |
+| 2019.3.5                     | `com.unity.cinemachine` updated to 2.5.0<br />`com.unity.timeline` added as 1.3.0 |
+| 2019.1.1-preview             | `com.unity.cinemachine` updated to 2.3.4                     |
+| 2019.1.0-preview             | `com.unity.cinemachine` updated to 2.2.8                     |
