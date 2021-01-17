@@ -6,6 +6,9 @@ nav:
   - 'Home' : 'index.md'
   - 'Gameplay Ingredients' :
     - 'Home' : 'gameplay-ingredients/index.md'
+    - 'Installing' : 'gameplay-ingredients/install.md'
+    - 'Versions' : 'gameplay-ingredients/versions.md'
+    - 'Getting Involved' : 'gameplay-ingredients/engage.md'
     - 'Events, Logic and Actions' : 'gameplay-ingredients/events-logic-actions.md'
     - 'Callables' : 'gameplay-ingredients/callable.md'
     - 'Managers' : 'gameplay-ingredients/managers.md'

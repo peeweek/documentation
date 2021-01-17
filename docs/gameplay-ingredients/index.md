@@ -4,6 +4,12 @@ Gameplay Ingredients is a set of **Runtime** and **Editor** tools for Unity Game
 
 GItHub repository is here : [https://github.com/peeweek/net.peeweek.gameplay-ingredients](https://github.com/peeweek/net.peeweek.gameplay-ingredients)
 
+## Getting Started
+
+* [Installing and Setting Up](install.md)
+* [Version Compatibility](versions.md)
+* [Getting involved in Development](engage.md)
+
 #### Runtime Tools
 
 * [Events, Logic and Actions](events-logic-actions.md) : Atomic Components to perform Actions based on logic and events.
