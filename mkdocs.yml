@@ -35,5 +35,8 @@ nav:
     - 'Other Editor Tools' : 'gameplay-ingredients/editor-other.md'
   - 'Console' :
     - 'Home' : 'console/index.md'
+    - 'Getting Started' : 'console/getting-started.md'
+    - 'Using Console' : 'console/using-console.md'
+    - 'API' : 'console/api.md'
   - 'Build Frontend' :
     - 'Home' : 'build-frontend/index.md' 
