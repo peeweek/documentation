@@ -29,7 +29,7 @@ nav:
     - 'Scene Setups' : 'gameplay-ingredients/scene-setups.md'
     - 'New Scene from Template' : 'gameplay-ingredients/new-scene-from-template.md'
     - 'Find and Replace' : 'gameplay-ingredients/find-and-replace.md'
-    - 'Callable Tree Explorer' : 'gameplay-ingredients/callable-tree-explorer.md'
+    - 'Ingredients Explorer' : 'gameplay-ingredients/ingredients-explorer.md'
     - 'Folders' : 'gameplay-ingredients/folders.md'
     - 'Discover' : 'gameplay-ingredients/discover.md'
     - 'Other Editor Tools' : 'gameplay-ingredients/editor-other.md'
